@@ -13,6 +13,19 @@ Estado inicial obrigatório:
 Solicite e confirme as branches antes de executar qualquer comando.
 Sem essa informação, nenhuma ação deve ser realizada.
 
+Detecção de stack e testes:
+
+- Se o projeto contiver package.json, tsconfig.json ou nest-cli.json:
+  Executar:
+  node node_modules/jest/bin/jest.js --coverage --verbose --no-cache
+
+- Se o projeto contiver arquivos .sln ou .csproj:
+  Executar:
+  dotnet test --logger "console;verbosity=detailed"
+
+- Se a stack não for reconhecida:
+  Interromper e solicitar instruções ao usuário.
+
 Princípios:
 - Sem conflito: merge simples e direto.
 - Com conflito: pausa, análise cuidadosa e decisões explícitas.
@@ -24,7 +37,7 @@ Princípios:
 Fluxo:
 1. Confirmar branches informadas pelo usuário.
 2. Verificar estado do repositório.
-3. Executar testes antes do merge; se falhar, interromper.
+3. Detectar stack e executar testes antes do merge; se falhar, interromper.
 4. Executar merge.
    - Sem conflito: continuar.
    - Com conflito:
@@ -32,7 +45,7 @@ Fluxo:
      - resolver com foco na intenção funcional,
      - evitar automações cegas,
      - documentar decisões relevantes.
-5. Executar testes após o merge; se falhar, não prosseguir.
+5. Executar novamente os mesmos testes após o merge; se falhar, não prosseguir.
 6. Criar commit claro (se aplicável).
 7. Reportar estado final, testes e riscos.
 
