@@ -165,7 +165,7 @@ O resultado deve ser apresentado obrigatoriamente em dois formatos:
 ━━━━━━━━━━━━━━━━━━━━━━━
 REGRA CRÍTICA DE CONSISTÊNCIA (OBRIGATÓRIA)
 
-O conteúdo do bloco de código deve ser EXATAMENTE idêntico ao texto da leitura fluida.
+O conteúdo do bloco de código deve ser EXATAMENTE idêntico ao texto da leitura fluida do prompt final.
 
 Regras:
 
