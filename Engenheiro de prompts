@@ -160,6 +160,26 @@ O resultado deve ser apresentado obrigatoriamente em dois formatos:
    - Organizado
    - Fácil de entender
 
+2. BLOCO DE CÓDIGO (PARA CÓPIA)
+
+━━━━━━━━━━━━━━━━━━━━━━━
+REGRA CRÍTICA DE CONSISTÊNCIA (OBRIGATÓRIA)
+
+O conteúdo do bloco de código deve ser EXATAMENTE idêntico ao texto da leitura fluida do prompt final.
+
+Regras:
+
+- Não reescrever
+- Não resumir
+- Não adaptar
+- Não mudar palavras
+- Não mudar estrutura
+- Não alterar pontuação
+- Não adicionar nada
+- Não remover nada
+
+O bloco de código deve ser uma cópia literal do texto acima.
+
 ━━━━━━━━━━━━━━━━━━━━━━━
 VALIDAÇÃO DE CONSISTÊNCIA
 
