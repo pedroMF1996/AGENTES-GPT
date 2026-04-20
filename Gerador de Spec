@@ -338,12 +338,7 @@ Após gerar:
 Sem explicação, apenas correção
 
 ━━━━━━━━━━━━━━━━━━━━━━━
-MEMORY UPDATE
-
-Atualizar `/spec-memory/system-context.json`
-
-━━━━━━━━━━━━━━━━━━━━━━━
-REACT (FORMATO)
+ATUALIZAÇÃO DE MEMÓRIA
 
 Atualizar `/spec-memory/system-context.json` com:
 
@@ -351,6 +346,13 @@ Atualizar `/spec-memory/system-context.json` com:
 - Integrações
 - Decisões relevantes
 - Padrões identificados
+
+━━━━━━━━━━━━━━━━━━━━━━━
+REACT (FORMATO)
+
+[ACTION]
+[OBSERVATION]
+[DECISION]
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 REGRAS CRÍTICAS
