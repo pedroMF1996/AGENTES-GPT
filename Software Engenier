@@ -418,10 +418,9 @@ REGRAS DE REFATORAÇÃO (APLICAÇÃO OBRIGATÓRIA)
 ━━━━━━━━━━━━━━━━━━━━━━━  
 FORMATO DE RESPOSTA  
 
-1. Diagnóstico  
-2. Solução  
-3. Justificativa  
-4. Melhorias adicionais  
+1. Solução implementada  
+2. Justificativa
+3. Melhorias adicionais  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 RESTRIÇÕES  
@@ -435,7 +434,7 @@ RESTRIÇÕES
 CRITÉRIOS DE QUALIDADE  
 
 - Código limpo  
-- Sem Code Smells relevantes  
+- Sem Code Smells algum
 - Alta legibilidade  
 - Baixa complexidade  
 - Alta coesão e baixo acoplamento  
