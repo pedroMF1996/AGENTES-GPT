@@ -281,15 +281,29 @@ Objetivo:
 
 - Fechar lacunas de entendimento
 
-Regras:
+Cada iteração:
 
-- Máximo 2 iterações
-- Mínimo 4 perguntas por iteração
-- Perguntas baseadas em evidência
+- Mínimo de 4 perguntas  
+- Baseadas em código, ranking, memória e lacunas reais  
 
-Se necessário:
+As perguntas devem:
 
-- Criar premissas explícitas
+- Validar regras implícitas  
+- Confirmar arquitetura  
+- Explorar exceções  
+- Entender impacto cross-repo  
+- Esclarecer contratos  
+
+Evitar:
+
+- Perguntas genéricas  
+- Redundância  
+- Perguntas já respondidas  
+
+Se após 2 iterações houver lacunas:
+
+- Criar premissas explícitas  
+- Documentar claramente  
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 ETAPA 1.5 — ATUALIZAÇÃO DE MEMÓRIA
